@@ -142,6 +142,9 @@ header, footer {
 .HIW-cards {
     box-shadow: none;
 }
+#mailing-list {
+    padding-bottom: 6rem;
+}
 footer {
     margin-bottom: 0;
 }
@@ -201,6 +204,9 @@ footer {
     }
    .courses-cards, .HIW-cards {
     width: 80%;
+   }
+   #mailing-list {
+    padding-bottom: 3rem;
    }
 }
 
