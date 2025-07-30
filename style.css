@@ -34,7 +34,6 @@ header, footer {
 .logo p{
    font-weight: bold;
    font-size: 1.2rem;
-  
 }
 
 .nav-links{
@@ -52,7 +51,7 @@ header, footer {
 }
 .menu-toggle {
     font-size: 1.2rem;
-    color: #011292;
+    color: rgba(71,91,222,255);
     background-color: rgba(1,3,18,0.9);
     border: none;
 }
@@ -118,7 +117,6 @@ header, footer {
     padding: 1rem;
     width: 80%;
     justify-content: space-evenly;
-   
 }
 
 .courses-cards, .HIW-cards {
@@ -132,7 +130,7 @@ header, footer {
 
 .icons{
     font-size: 2rem;
-    color: #011292;
+    color: rgba(71,91,222,255);
     margin: 0 auto;
     width: 20%;
     display: flex;
@@ -204,10 +202,10 @@ footer {
         justify-content: center;
         align-items: center;
         gap: 1rem;
-        width: 100%;
+        width: 90%;
     }
    .courses-cards, .HIW-cards {
-    width: 80%;
+    width: 90%;
    }
    #mailing-list {
     padding-bottom: 3rem;
