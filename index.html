@@ -11,6 +11,8 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -38,12 +40,12 @@
     <main>
         <!-- Hero-section -->
          <section id="home" class="hero">
-            <h2>Learn HTML, CSS and Javascript:</h2>
-            <h2>Become a Front-end Developer.</h2>
-            <p>Start your journey to becoming a front-end developer in less than six months.</p>
-            <p>Get unlimited access to our mentors and resources.</p>
+            <h2 data-aos="fade-up" data-aos-duration="1000">Learn HTML, CSS and Javascript:</h2>
+            <h2 data-aos="fade-up" data-aos-duration="1200">Become a Front-end Developer.</h2>
+            <p data-aos="fade-up" data-aos-duration="1500">Start your journey to becoming a front-end developer in less than six months.</p>
+            <p data-aos="fade-up" data-aos-duration="2000">Get unlimited access to our mentors and resources.</p>
             
-            <form>
+            <form data-aos="fade-up" data-aos-duration="2500">
                 <label for="email">
                     <input type="email" name="email" id="email" placeholder="Enter email address">
                 </label> 
@@ -60,20 +62,20 @@
             </div>
 
             <div class="courses-container">
-                <div class="courses-cards">
+                <div class="courses-cards" data-aos="zoom-in-right" data-aos-duration="1200">
                     <h3 class="icons"><i class="fab fa-html5"></i></h3>
                     <h3>HTML</h3>
                 <P>Lorem ipsum dolorsitamet <br> consectetur adipisicing elit. Massa <br> dignissim consequat in.</P>
             
                 </div>
 
-                <div class="courses-cards">
+                <div class="courses-cards" data-aos="zoom-in" data-aos-duration="1200">
                     <h3 class="icons"><i class="fa-brands fa-css3-alt"></i></h3>
                     <h3>CSS</h3>
                     <P>Lorem ipsum dolorsitamet <br> consectetur adipisicing elit. Massa <br> dignissim consequat in.</P>
                 </div>
 
-                <div class="courses-cards">
+                <div class="courses-cards" data-aos="zoom-in-left" data-aos-duration="1200">
                     <h3 class="icons"><i class="fa-brands fa-square-js"></i></h3>
                     <h3>JAVASCRIPT</h3>
                 <P>Lorem ipsum dolorsitamet <br> consectetur adipisicing elit. Massa <br> dignissim consequat in.</P>    
@@ -87,24 +89,24 @@
             <h3>How it works</h3>
 
             <div class="HIW-container">
-                <div class="HIW-cards">
+                <div class="HIW-cards" data-aos="flip-left" data-aos-duration="1200">
                     <h3 class="icons"><i class="fa-solid fa-user-plus"></i></h3>
                     <h4>Create an account</h4>
                     <p>Lorem ipsum dolor sit amet <br> consectetur.</p>
                 </div>
-                <div class="HIW-cards">
+                <div class="HIW-cards" data-aos="flip-up" data-aos-duration="1200">
                     <h3 class="icons"><i class="fa-solid fa-shield"></i></h3>
                     <h4>Get Authorization</h4>
                     <p>Lorem ipsum dolor sit amet <br> consectetur.</p>
                 </div>
-                <div class="HIW-cards">
+                <div class="HIW-cards" data-aos="flip-right" data-aos-duration="1200">
                     <h3 class="icons"><i class="fa-solid fa-face-smile"></i></h3>
                     <h4>You are all set!</h4>
                     <p>Lorem ipsum dolor sit amet <br> consectetur.</p>
                 </div>
             </div>
            
-            <button class="btn">Get Started</button>
+            <button class="btn" data-aos="fade-up">Get Started</button>
          </section>
 
          <!-- Mailing-list -->
@@ -139,7 +141,8 @@
     </footer>
 
 </div>
-  
+ 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/js/all.min.js" integrity="sha512-gBYquPLlR76UWqCwD06/xwal4so02RjIR0oyG1TIhSGwmBTRrIkQbaPehPF8iwuY9jFikDHMGEelt0DtY7jtvQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="script.js"></script>
 </body>
